@@ -12,8 +12,8 @@ body {
 
 main {
   width: 100%;
-  padding: 2em;
-  font-family: monospace;
+  padding: 1em;
+  font-family: sy;
 }
 main .hero {
   width: 100%;
@@ -51,7 +51,7 @@ main .image-text .about-text {
   width: 100%;
 }
 main .image-text .about-text h1 {
-  font-size: 2.7rem;
+  font-size: 2rem;
   font-weight: 200;
   text-transform: uppercase;
   line-height: 1em;
@@ -74,7 +74,7 @@ main .image-text .services .service {
   gap: 3rem;
 }
 main .image-text .services .service h1 {
-  font-size: 2rem;
+  font-size: 1.5rem;
   text-transform: uppercase;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   padding: 1rem 0;
@@ -98,7 +98,7 @@ main .info .info-text {
   width: 100%;
   height: 100%;
   display: flex;
-  gap: 2rem;
+  gap: 1rem;
   padding-top: 1.3rem;
 }
 main .info .info-text p {
@@ -109,6 +109,7 @@ main .info .info-text .info-2 {
   width: 100%;
 }
 main .info .info-text .info-2 h1 {
+  width: 100%;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-size: 3rem;
   line-height: 3rem;
@@ -207,9 +208,9 @@ main .ourservice .image-bottom img {
   padding: 4rem 1.5rem 1rem 1.5rem;
 }
 .last-sec h3 {
-  font-size: 2.4rem;
+  font-size: 2rem;
   text-transform: uppercase;
-  padding: 0 2.5rem;
+  padding: 0 1.5rem;
   text-align: center;
   font-weight: 400;
   line-height: 2.5rem;
@@ -268,7 +269,6 @@ footer .main-footer .footer-padding .heading .a-tag a {
   padding: 1rem 0;
   font-size: 0.8rem;
   font-weight: 200;
-  font-family: cursive;
   text-transform: uppercase;
 }
 footer .main-footer p {
